@@ -2,8 +2,8 @@
 //  UILabel+AutomaticWritingTests.m
 //  UILabel-AutomaticWritingTests
 //
-//  Created by alexruperez on 10/3/15.
-//  Copyright (c) 2015 alexruperez. All rights reserved.
+//  Created by alexruperez on 03/10/2015.
+//  Copyright (c) 2014 alexruperez. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -27,7 +27,7 @@
 		D517B8031AAEDD9000ADC41A /* UILabelAutomaticWriting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UILabelAutomaticWriting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D517B8071AAEDD9000ADC41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D517B8081AAEDD9000ADC41A /* UILabel+AutomaticWriting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutomaticWriting.h"; sourceTree = "<group>"; };
-		D517B80E1AAEDD9000ADC41A /* UILabel-AutomaticWritingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "UILabel-AutomaticWritingTests.xctest"; path = UILabelAutomaticWritingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D517B80E1AAEDD9000ADC41A /* UILabelAutomaticWritingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UILabelAutomaticWritingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D517B8141AAEDD9000ADC41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D517B8201AAEDF1800ADC41A /* UILabel+AutomaticWriting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutomaticWriting.m"; sourceTree = "<group>"; };
 		D517B8231AAEE28F00ADC41A /* UILabel+AutomaticWritingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutomaticWritingTests.m"; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				D517B8031AAEDD9000ADC41A /* UILabelAutomaticWriting.framework */,
-				D517B80E1AAEDD9000ADC41A /* UILabel-AutomaticWritingTests.xctest */,
+				D517B80E1AAEDD9000ADC41A /* UILabelAutomaticWritingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,7 +152,7 @@
 			);
 			name = UILabelAutomaticWritingTests;
 			productName = "UILabel-AutomaticWritingTests";
-			productReference = D517B80E1AAEDD9000ADC41A /* UILabel-AutomaticWritingTests.xctest */;
+			productReference = D517B80E1AAEDD9000ADC41A /* UILabelAutomaticWritingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
