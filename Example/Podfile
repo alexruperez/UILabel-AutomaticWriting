@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'UILabel-AutomaticWriting', :exclusive => true do
+  pod "UILabel-AutomaticWriting", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "UILabel-AutomaticWriting", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
