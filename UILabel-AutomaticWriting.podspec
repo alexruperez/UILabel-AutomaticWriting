@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "UILabel-AutomaticWriting"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "UILabel category with automatic writing animation."
   s.homepage         = "https://github.com/alexruperez/UILabel-AutomaticWriting"
   s.screenshots      = "https://raw.githubusercontent.com/alexruperez/UILabel-AutomaticWriting/master/screenshot.gif", "https://raw.githubusercontent.com/alexruperez/UILabel-AutomaticWriting/master/screenshot.jpg"
