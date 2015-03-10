@@ -1,0 +1,14 @@
+PODS:
+  - UILabel-AutomaticWriting (0.1.0)
+
+DEPENDENCIES:
+  - UILabel-AutomaticWriting (from `../`)
+
+EXTERNAL SOURCES:
+  UILabel-AutomaticWriting:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UILabel-AutomaticWriting: e98887be1c05ae8ded6d473ef6202dee98a492ff
+
+COCOAPODS: 0.36.0.rc.1

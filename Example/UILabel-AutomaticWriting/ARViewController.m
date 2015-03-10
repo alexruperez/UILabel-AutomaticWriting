@@ -7,8 +7,11 @@
 //
 
 #import "ARViewController.h"
+#import <UILabel-AutomaticWriting/UILabel+AutomaticWriting.h>
 
 @interface ARViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
@@ -18,6 +21,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [self.label setText:@"CHECK THIS!" automaticWritingAnimationWithBlinkingMode:UILabelAWBlinkingModeWhenFinishShowing];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,38 +1,18 @@
-#
-# Be sure to run `pod lib lint UILabel-AutomaticWriting.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "UILabel-AutomaticWriting"
   s.version          = "0.1.0"
-  s.summary          = "A short description of UILabel-AutomaticWriting."
-  s.description      = <<-DESC
-                       An optional longer description of UILabel-AutomaticWriting
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/UILabel-AutomaticWriting"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "UILabel category with automatic writing animation."
+  s.homepage         = "https://github.com/alexruperez/UILabel-AutomaticWriting"
+  s.screenshots      = "https://raw.githubusercontent.com/alexruperez/UILabel-AutomaticWriting/master/screenshot.gif", "https://raw.githubusercontent.com/alexruperez/UILabel-AutomaticWriting/master/screenshot.jpg"
   s.license          = 'MIT'
   s.author           = { "alexruperez" => "contact@alexruperez.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/UILabel-AutomaticWriting.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/alexruperez/UILabel-AutomaticWriting.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/alexruperez'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'UILabel-AutomaticWriting' => ['Pod/Assets/*.png']
-  }
+  s.source_files = 'UILabel-AutomaticWriting/*.{h,m}'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end

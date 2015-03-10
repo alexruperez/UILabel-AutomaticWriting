@@ -6,6 +6,4 @@ end
 
 target 'Tests', :exclusive => true do
   pod "UILabel-AutomaticWriting", :path => "../"
-
-  pod 'FBSnapshotTestCase'
 end

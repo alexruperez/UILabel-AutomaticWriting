@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D517B8091AAEDD9000ADC41A /* UILabel+AutomaticWriting.h in Headers */ = {isa = PBXBuildFile; fileRef = D517B8081AAEDD9000ADC41A /* UILabel+AutomaticWriting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D517B80F1AAEDD9000ADC41A /* UILabelAutomaticWriting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D517B8031AAEDD9000ADC41A /* UILabelAutomaticWriting.framework */; };
+		D517B8221AAEDF1800ADC41A /* UILabel+AutomaticWriting.m in Sources */ = {isa = PBXBuildFile; fileRef = D517B8201AAEDF1800ADC41A /* UILabel+AutomaticWriting.m */; };
+		D517B8251AAEE29E00ADC41A /* UILabel+AutomaticWritingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D517B8231AAEE28F00ADC41A /* UILabel+AutomaticWritingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D517B8101AAEDD9000ADC41A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D517B7FA1AAEDD9000ADC41A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D517B8021AAEDD9000ADC41A;
+			remoteInfo = "UILabel-AutomaticWriting";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D517B8031AAEDD9000ADC41A /* UILabelAutomaticWriting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UILabelAutomaticWriting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D517B8071AAEDD9000ADC41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D517B8081AAEDD9000ADC41A /* UILabel+AutomaticWriting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutomaticWriting.h"; sourceTree = "<group>"; };
+		D517B80E1AAEDD9000ADC41A /* UILabel-AutomaticWritingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "UILabel-AutomaticWritingTests.xctest"; path = UILabelAutomaticWritingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D517B8141AAEDD9000ADC41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D517B8201AAEDF1800ADC41A /* UILabel+AutomaticWriting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutomaticWriting.m"; sourceTree = "<group>"; };
+		D517B8231AAEE28F00ADC41A /* UILabel+AutomaticWritingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutomaticWritingTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D517B7FF1AAEDD9000ADC41A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D517B80B1AAEDD9000ADC41A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D517B80F1AAEDD9000ADC41A /* UILabelAutomaticWriting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D517B7F91AAEDD9000ADC41A = {
+			isa = PBXGroup;
+			children = (
+				D517B8051AAEDD9000ADC41A /* UILabel-AutomaticWriting */,
+				D517B8121AAEDD9000ADC41A /* UILabel-AutomaticWritingTests */,
+				D517B8041AAEDD9000ADC41A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D517B8041AAEDD9000ADC41A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D517B8031AAEDD9000ADC41A /* UILabelAutomaticWriting.framework */,
+				D517B80E1AAEDD9000ADC41A /* UILabel-AutomaticWritingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D517B8051AAEDD9000ADC41A /* UILabel-AutomaticWriting */ = {
+			isa = PBXGroup;
+			children = (
+				D517B8081AAEDD9000ADC41A /* UILabel+AutomaticWriting.h */,
+				D517B8201AAEDF1800ADC41A /* UILabel+AutomaticWriting.m */,
+				D517B8061AAEDD9000ADC41A /* Supporting Files */,
+			);
+			path = "UILabel-AutomaticWriting";
+			sourceTree = "<group>";
+		};
+		D517B8061AAEDD9000ADC41A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D517B8071AAEDD9000ADC41A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D517B8121AAEDD9000ADC41A /* UILabel-AutomaticWritingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D517B8231AAEE28F00ADC41A /* UILabel+AutomaticWritingTests.m */,
+				D517B8131AAEDD9000ADC41A /* Supporting Files */,
+			);
+			path = "UILabel-AutomaticWritingTests";
+			sourceTree = "<group>";
+		};
+		D517B8131AAEDD9000ADC41A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D517B8141AAEDD9000ADC41A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D517B8001AAEDD9000ADC41A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D517B8091AAEDD9000ADC41A /* UILabel+AutomaticWriting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D517B8021AAEDD9000ADC41A /* UILabelAutomaticWriting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D517B8191AAEDD9000ADC41A /* Build configuration list for PBXNativeTarget "UILabelAutomaticWriting" */;
+			buildPhases = (
+				D517B7FE1AAEDD9000ADC41A /* Sources */,
+				D517B7FF1AAEDD9000ADC41A /* Frameworks */,
+				D517B8001AAEDD9000ADC41A /* Headers */,
+				D517B8011AAEDD9000ADC41A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UILabelAutomaticWriting;
+			productName = "UILabel-AutomaticWriting";
+			productReference = D517B8031AAEDD9000ADC41A /* UILabelAutomaticWriting.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D517B80D1AAEDD9000ADC41A /* UILabelAutomaticWritingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D517B81C1AAEDD9000ADC41A /* Build configuration list for PBXNativeTarget "UILabelAutomaticWritingTests" */;
+			buildPhases = (
+				D517B80A1AAEDD9000ADC41A /* Sources */,
+				D517B80B1AAEDD9000ADC41A /* Frameworks */,
+				D517B80C1AAEDD9000ADC41A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D517B8111AAEDD9000ADC41A /* PBXTargetDependency */,
+			);
+			name = UILabelAutomaticWritingTests;
+			productName = "UILabel-AutomaticWritingTests";
+			productReference = D517B80E1AAEDD9000ADC41A /* UILabel-AutomaticWritingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D517B7FA1AAEDD9000ADC41A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = alexruperez;
+				TargetAttributes = {
+					D517B8021AAEDD9000ADC41A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D517B80D1AAEDD9000ADC41A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = D517B7FD1AAEDD9000ADC41A /* Build configuration list for PBXProject "UILabel-AutomaticWriting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D517B7F91AAEDD9000ADC41A;
+			productRefGroup = D517B8041AAEDD9000ADC41A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D517B8021AAEDD9000ADC41A /* UILabelAutomaticWriting */,
+				D517B80D1AAEDD9000ADC41A /* UILabelAutomaticWritingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D517B8011AAEDD9000ADC41A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D517B80C1AAEDD9000ADC41A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D517B7FE1AAEDD9000ADC41A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D517B8221AAEDF1800ADC41A /* UILabel+AutomaticWriting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D517B80A1AAEDD9000ADC41A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D517B8251AAEE29E00ADC41A /* UILabel+AutomaticWritingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D517B8111AAEDD9000ADC41A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D517B8021AAEDD9000ADC41A /* UILabelAutomaticWriting */;
+			targetProxy = D517B8101AAEDD9000ADC41A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D517B8171AAEDD9000ADC41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D517B8181AAEDD9000ADC41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D517B81A1AAEDD9000ADC41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "UILabel-AutomaticWriting/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D517B81B1AAEDD9000ADC41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "UILabel-AutomaticWriting/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D517B81D1AAEDD9000ADC41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UILabel-AutomaticWritingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D517B81E1AAEDD9000ADC41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UILabel-AutomaticWritingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D517B7FD1AAEDD9000ADC41A /* Build configuration list for PBXProject "UILabel-AutomaticWriting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D517B8171AAEDD9000ADC41A /* Debug */,
+				D517B8181AAEDD9000ADC41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D517B8191AAEDD9000ADC41A /* Build configuration list for PBXNativeTarget "UILabelAutomaticWriting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D517B81A1AAEDD9000ADC41A /* Debug */,
+				D517B81B1AAEDD9000ADC41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D517B81C1AAEDD9000ADC41A /* Build configuration list for PBXNativeTarget "UILabelAutomaticWritingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D517B81D1AAEDD9000ADC41A /* Debug */,
+				D517B81E1AAEDD9000ADC41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D517B7FA1AAEDD9000ADC41A /* Project object */;
+}

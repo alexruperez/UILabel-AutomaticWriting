@@ -1,0 +1,6 @@
+#include "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/UILabel-AutomaticWriting" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/UILabel-AutomaticWriting"
+OTHER_LDFLAGS = ${PODS_UILABEL_AUTOMATICWRITING_UILABEL_AUTOMATICWRITING_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES
