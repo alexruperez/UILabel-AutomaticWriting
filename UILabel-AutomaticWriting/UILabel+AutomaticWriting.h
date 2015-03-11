@@ -30,6 +30,8 @@ typedef NS_ENUM(NSInteger, UILabelAWBlinkingMode)
 
 @interface UILabel (AutomaticWriting)
 
+@property (strong, nonatomic) NSOperationQueue *automaticWritingOperationQueue;
+
 - (void)setTextWithAutomaticWritingAnimation:(NSString *)text;
 
 - (void)setText:(NSString *)text automaticWritingAnimationWithBlinkingMode:(UILabelAWBlinkingMode)blinkingMode;

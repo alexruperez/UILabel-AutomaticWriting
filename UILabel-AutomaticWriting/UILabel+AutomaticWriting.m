@@ -7,12 +7,31 @@
 //
 
 #import "UILabel+AutomaticWriting.h"
+#import <objc/runtime.h>
+
 
 NSTimeInterval const UILabelAWDefaultDuration = 0.4f;
 
 unichar const UILabelAWDefaultCharacter = 124;
 
+static char kAutomaticWritingOperationQueueKey;
+
+
 @implementation UILabel (AutomaticWriting)
+
+@dynamic automaticWritingOperationQueue;
+
+#pragma mark - Public Methods
+
+- (void)setAutomaticWritingOperationQueue:(NSOperationQueue *)automaticWritingOperationQueue
+{
+    objc_setAssociatedObject(self, &kAutomaticWritingOperationQueueKey, automaticWritingOperationQueue, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- (NSOperationQueue *)automaticWritingOperationQueue
+{
+    return objc_getAssociatedObject(self, &kAutomaticWritingOperationQueueKey);
+}
 
 - (void)setTextWithAutomaticWritingAnimation:(NSString *)text
 {
@@ -41,6 +60,8 @@ unichar const UILabelAWDefaultCharacter = 124;
 
 - (void)setText:(NSString *)text automaticWritingAnimationWithDuration:(NSTimeInterval)duration blinkingMode:(UILabelAWBlinkingMode)blinkingMode blinkingCharacter:(unichar)blinkingCharacter completion:(void (^)(void))completion
 {
+    self.automaticWritingOperationQueue.suspended = YES;
+    
     self.text = @"";
     
     NSMutableString *automaticWritingText = NSMutableString.new;
@@ -50,12 +71,21 @@ unichar const UILabelAWDefaultCharacter = 124;
         [automaticWritingText appendString:text];
     }
     
-    [self automaticWriting:automaticWritingText duration:duration mode:blinkingMode character:blinkingCharacter completion:completion];
+    self.automaticWritingOperationQueue = NSOperationQueue.new;
+    self.automaticWritingOperationQueue.name = @"Automatic Writing Operation Queue";
+    self.automaticWritingOperationQueue.maxConcurrentOperationCount = 1;
+    
+    [self.automaticWritingOperationQueue addOperationWithBlock:^{
+        [self automaticWriting:automaticWritingText duration:duration mode:blinkingMode character:blinkingCharacter completion:completion];
+    }];
 }
+
+#pragma mark - Private Methods
 
 - (void)automaticWriting:(NSMutableString *)text duration:(NSTimeInterval)duration mode:(UILabelAWBlinkingMode)mode character:(unichar)character completion:(void (^)(void))completion
 {
-    if (text.length || mode >= UILabelAWBlinkingModeWhenFinish)
+    NSOperationQueue *currentQueue = NSOperationQueue.currentQueue;
+    if ((text.length || mode >= UILabelAWBlinkingModeWhenFinish) && !currentQueue.isSuspended)
     {
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(duration * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             if (mode != UILabelAWBlinkingModeNone)
@@ -80,7 +110,16 @@ unichar const UILabelAWDefaultCharacter = 124;
                 }
             }
             
-            [self automaticWriting:text duration:duration mode:mode character:character completion:completion];
+            if (!currentQueue.isSuspended)
+            {
+                [currentQueue addOperationWithBlock:^{
+                    [self automaticWriting:text duration:duration mode:mode character:character completion:completion];
+                }];
+            }
+            else if (completion)
+            {
+                completion();
+            }
         });
     }
     else if (completion)

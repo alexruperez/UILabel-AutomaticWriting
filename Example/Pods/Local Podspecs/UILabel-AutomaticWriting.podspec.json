@@ -1,11 +1,11 @@
 {
   "name": "UILabel-AutomaticWriting",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "UILabel category with automatic writing animation.",
   "homepage": "https://github.com/alexruperez/UILabel-AutomaticWriting",
   "screenshots": [
-    "https://raw.githubusercontent.com/alexruperez/UILabel-AutomaticWriting/master/screenshot.jpg",
-    "https://raw.githubusercontent.com/alexruperez/UILabel-AutomaticWriting/master/screenshot.gif"
+    "https://raw.githubusercontent.com/alexruperez/UILabel-AutomaticWriting/master/screenshot.gif",
+    "https://raw.githubusercontent.com/alexruperez/UILabel-AutomaticWriting/master/screenshot.jpg"
   ],
   "license": "MIT",
   "authors": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/alexruperez/UILabel-AutomaticWriting.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "social_media_url": "https://twitter.com/alexruperez",
   "platforms": {
