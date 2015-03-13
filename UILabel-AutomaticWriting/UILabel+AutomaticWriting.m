@@ -150,6 +150,11 @@ static char kAutomaticWritingOperationQueueKey;
     self.text = [self.text stringByAppendingString:[self stringWithCharacter:character]];
 }
 
+- (void)appendCharacters:(NSArray *)characters
+{
+    self.text = [self.text stringByAppendingString:[self stringWithCharacters:characters]];
+}
+
 - (BOOL)isLastCharacter:(unichar)character
 {
     if (self.text.length)
