@@ -133,6 +133,18 @@ static char kAutomaticWritingOperationQueueKey;
     return [NSString stringWithFormat:@"%C", character];
 }
 
+- (NSString *)stringWithCharacters:(NSArray *)characters
+{
+    NSMutableString *string = NSMutableString.new;
+    
+    for (NSNumber *character in characters)
+    {
+        [string appendFormat:@"%C", character.unsignedShortValue];
+    }
+    
+    return string.copy;
+}
+
 - (void)appendCharacter:(unichar)character
 {
     self.text = [self.text stringByAppendingString:[self stringWithCharacter:character]];
