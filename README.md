@@ -11,7 +11,8 @@
 ## Overview
 
 UILabel category with automatic writing animation.
-Inspired by [Google Trends - Hot Searches](http://www.google.com/trends/hottrends/visualize)
+Inspired by [Google Trends - Hot Searches](http://www.google.com/trends/hottrends/visualize).
+Check out the Android version created by my colleague [hrules6872](https://github.com/hrules6872)/[TrendTextView](https://github.com/hrules6872/TrendTextView).
 
 ![UILabel-AutomaticWriting Screenshot](https://raw.githubusercontent.com/alexruperez/UILabel-AutomaticWriting/master/screenshot.gif)
 
