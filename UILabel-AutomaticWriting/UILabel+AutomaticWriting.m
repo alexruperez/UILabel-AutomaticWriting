@@ -130,7 +130,7 @@ static char kAutomaticWritingOperationQueueKey;
 
 - (NSString *)stringWithCharacter:(unichar)character
 {
-    return [NSString stringWithFormat:@"%C", character];
+    return [self stringWithCharacters:@[@(character)]];
 }
 
 - (NSString *)stringWithCharacters:(NSArray *)characters
@@ -147,7 +147,7 @@ static char kAutomaticWritingOperationQueueKey;
 
 - (void)appendCharacter:(unichar)character
 {
-    self.text = [self.text stringByAppendingString:[self stringWithCharacter:character]];
+    [self appendCharacters:@[@(character)]];
 }
 
 - (void)appendCharacters:(NSArray *)characters
@@ -155,23 +155,33 @@ static char kAutomaticWritingOperationQueueKey;
     self.text = [self.text stringByAppendingString:[self stringWithCharacters:characters]];
 }
 
+- (BOOL)isLastCharacters:(NSArray *)characters
+{
+    if (self.text.length >= characters.count)
+    {
+        return [self.text hasSuffix:[self stringWithCharacters:characters]];
+    }
+    return NO;
+}
+
 - (BOOL)isLastCharacter:(unichar)character
 {
-    if (self.text.length)
+    return [self isLastCharacters:@[@(character)]];
+}
+
+- (BOOL)deleteLastCharacters:(NSUInteger)characters
+{
+    if (self.text.length >= characters)
     {
-        return [self.text characterAtIndex:self.text.length-1] == character;
+        self.text = [self.text substringToIndex:self.text.length-characters];
+        return YES;
     }
     return NO;
 }
 
 - (BOOL)deleteLastCharacter
 {
-    if (self.text.length)
-    {
-        self.text = [self.text substringToIndex:self.text.length-1];
-        return YES;
-    }
-    return NO;
+    return [self deleteLastCharacters:1];
 }
 
 @end
