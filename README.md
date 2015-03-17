@@ -52,6 +52,12 @@ UILabelAWBlinkingModeWhenFinishShowing
 UILabelAWBlinkingModeAlways
 ```
 
+#### You can fix blinking line break, setting edge insets with:
+
+```objectivec
+yourLabel.edgeInsets = UIEdgeInsetsMake(0.0f, 0.0f, 0.0f, 0.2f);
+```
+
 # Etc.
 
 * Contributions are very welcome.
