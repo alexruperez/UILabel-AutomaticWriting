@@ -31,6 +31,7 @@ typedef NS_ENUM(NSInteger, UILabelAWBlinkingMode)
 @interface UILabel (AutomaticWriting)
 
 @property (strong, nonatomic) NSOperationQueue *automaticWritingOperationQueue;
+@property (assign, nonatomic) UIEdgeInsets edgeInsets;
 
 - (void)setTextWithAutomaticWritingAnimation:(NSString *)text;
 

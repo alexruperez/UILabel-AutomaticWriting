@@ -7,278 +7,295 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10D8C0BB6ACFF7F93B7D7072 /* UILabel+AutomaticWriting.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F77F4F7CF6D2032F22593E /* UILabel+AutomaticWriting.m */; };
-		128A4B61A3FAAF3FB992274C /* UILabel+AutomaticWriting.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C0704F93B704D0A841F4BB /* UILabel+AutomaticWriting.h */; };
-		28C4660EE6CF2BBBEB06DCC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2A36B6CEEF61E117AC6680 /* Foundation.framework */; };
-		3228043DAB29175CA94C9DD4 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB5AA77BD2CB96D2069399 /* Pods-Tests-dummy.m */; };
-		37269DBE6A639A8AF5081779 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8FD95B18C2B5C7D74E0F58 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-dummy.m */; };
-		6DE2E3CACAAD48EDC1DC52D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2A36B6CEEF61E117AC6680 /* Foundation.framework */; };
-		82E14CE29B993E9E44F646C6 /* Pods-UILabel-AutomaticWriting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9771A40EC8381EB38598EDA4 /* Pods-UILabel-AutomaticWriting-dummy.m */; };
-		8CF149EEF152B631BD11FC5F /* UILabel+AutomaticWriting.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C0704F93B704D0A841F4BB /* UILabel+AutomaticWriting.h */; };
-		DB714F07C0E40F4EFD4FF4DD /* Pods-Tests-UILabel-AutomaticWriting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC32B1AECB5B9E95A39926C /* Pods-Tests-UILabel-AutomaticWriting-dummy.m */; };
-		DC1EE1600CF6C866CE8A1ABD /* UILabel+AutomaticWriting.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F77F4F7CF6D2032F22593E /* UILabel+AutomaticWriting.m */; };
-		DE99E9F06C687F9B7B88BD4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0D90EBD335009CCCDCF6F1 /* UIKit.framework */; };
-		EB873417938B28B234CF914A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0D90EBD335009CCCDCF6F1 /* UIKit.framework */; };
-		F81373CFBB5E38AA2692681C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2A36B6CEEF61E117AC6680 /* Foundation.framework */; };
-		FFCE7F1332CAEDA92550C7CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2A36B6CEEF61E117AC6680 /* Foundation.framework */; };
+		0CFFA73A5FC31D9B48A499F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59247A60A1228902FCB4365 /* Foundation.framework */; };
+		1DC735430DC97A20F8C8C96D /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD631DDD131FC6315100138 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-dummy.m */; };
+		32AFCCD88B3FBB6F934DEBD5 /* Pods-UILabel-AutomaticWriting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 236559AD403575AE542649D4 /* Pods-UILabel-AutomaticWriting-dummy.m */; };
+		3E58860D8EF99AC97027C1A9 /* Pods-Tests-UILabel-AutomaticWriting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3515742517E1E1C405D5A1 /* Pods-Tests-UILabel-AutomaticWriting-dummy.m */; };
+		5922FA8EEA655EF1FAD73AEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59247A60A1228902FCB4365 /* Foundation.framework */; };
+		5C3D35E81246F9974CF0FCA2 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3B54F3975C3E2BC682E51 /* Pods-Tests-dummy.m */; };
+		811826BDD8F188F1BCF6027E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F855A3E1A6A182C2BCCF5FE5 /* UIKit.framework */; };
+		878A29B4DC91DA98772C3B0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F855A3E1A6A182C2BCCF5FE5 /* UIKit.framework */; };
+		8EA7BB8C3F04382E87470A5E /* UILabel+AutomaticWriting.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8D74AD69C83591149C9C38 /* UILabel+AutomaticWriting.h */; };
+		972AA21B1469E8DA20E9D303 /* UILabel+AutomaticWriting.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8D74AD69C83591149C9C38 /* UILabel+AutomaticWriting.h */; };
+		9BD037AF3935D03D4645AD8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59247A60A1228902FCB4365 /* Foundation.framework */; };
+		A09DA37DA968F5B36225EC59 /* UILabel+AutomaticWriting.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF92E6C03DFB562298F9B5 /* UILabel+AutomaticWriting.m */; };
+		BF2C4EF35CB2BE51A166C948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59247A60A1228902FCB4365 /* Foundation.framework */; };
+		D1BF848B38186E147B8D71BC /* UILabel+AutomaticWriting.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF92E6C03DFB562298F9B5 /* UILabel+AutomaticWriting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E3111D544D508722FC2E20E8 /* PBXContainerItemProxy */ = {
+		08B8C367A95EAE7CE92372E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1AD8AF1EE4D7EC5B1FDF024E /* Project object */;
+			containerPortal = 947555503145083875D41A0A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E81396321CB5EF9D0E441223;
-			remoteInfo = "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting";
-		};
-		EA063A42601BC8ED9E08A43E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1AD8AF1EE4D7EC5B1FDF024E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5B30C6C7EC560AF60507C7B0;
+			remoteGlobalIDString = 5190F8E339DE1F62955A17CF;
 			remoteInfo = "Pods-Tests-UILabel-AutomaticWriting";
+		};
+		437D887AE98E4EB782BE6E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947555503145083875D41A0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0FDA1EF059200A5294296D3;
+			remoteInfo = "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B6FE3B2ED19AA12FD95913B /* libPods-Tests-UILabel-AutomaticWriting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-UILabel-AutomaticWriting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F8E260D2D69274A195F8A97 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-Private.xcconfig"; path = "../Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting/Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-Private.xcconfig"; sourceTree = "<group>"; };
-		174DFB4AABF9A7A46E069041 /* Pods-UILabel-AutomaticWriting-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UILabel-AutomaticWriting-acknowledgements.plist"; sourceTree = "<group>"; };
-		211C392E1E5531F88BCF991B /* libPods-UILabel-AutomaticWriting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UILabel-AutomaticWriting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		215498A305D7FF9F286418A7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2608AC982E3514FCAA2CA0A6 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		3AC32B1AECB5B9E95A39926C /* Pods-Tests-UILabel-AutomaticWriting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-UILabel-AutomaticWriting-dummy.m"; sourceTree = "<group>"; };
-		3F12E472E25752E459EB0873 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E0D90EBD335009CCCDCF6F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		563A4AE06EA9D122838356F0 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		572147A3B593C6950BAFCA29 /* Pods-UILabel-AutomaticWriting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UILabel-AutomaticWriting.debug.xcconfig"; sourceTree = "<group>"; };
-		5725F41A1A937261525A2EEF /* Pods-Tests-UILabel-AutomaticWriting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-UILabel-AutomaticWriting.xcconfig"; sourceTree = "<group>"; };
-		582C87F28311BAFD1974C7D4 /* libPods-UILabel-AutomaticWriting-UILabel-AutomaticWriting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UILabel-AutomaticWriting-UILabel-AutomaticWriting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BC891FCD2D492D9458F47B8 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-prefix.pch"; path = "../Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting/Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-prefix.pch"; sourceTree = "<group>"; };
-		68BB5AA77BD2CB96D2069399 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		7258EF6221E6C481BAB6FA47 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		77C0704F93B704D0A841F4BB /* UILabel+AutomaticWriting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutomaticWriting.h"; sourceTree = "<group>"; };
-		78F77F4F7CF6D2032F22593E /* UILabel+AutomaticWriting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutomaticWriting.m"; sourceTree = "<group>"; };
-		83F8EAE635F3A10152FEF6D0 /* Pods-UILabel-AutomaticWriting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UILabel-AutomaticWriting.release.xcconfig"; sourceTree = "<group>"; };
-		8F4F36530BB166FF6EAB8760 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		96490E3B773FC8CF7E8D8510 /* Pods-UILabel-AutomaticWriting-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UILabel-AutomaticWriting-environment.h"; sourceTree = "<group>"; };
-		9771A40EC8381EB38598EDA4 /* Pods-UILabel-AutomaticWriting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UILabel-AutomaticWriting-dummy.m"; sourceTree = "<group>"; };
-		9C2A36B6CEEF61E117AC6680 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9E28F154722696D2C66A33BE /* Pods-UILabel-AutomaticWriting-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UILabel-AutomaticWriting-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A4A5F445DB6BF7EB564EEDC0 /* Pods-Tests-UILabel-AutomaticWriting-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-UILabel-AutomaticWriting-Private.xcconfig"; sourceTree = "<group>"; };
-		A8F0C66EFEE906D6E95AD059 /* Pods-UILabel-AutomaticWriting-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UILabel-AutomaticWriting-resources.sh"; sourceTree = "<group>"; };
-		DA8FD95B18C2B5C7D74E0F58 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-dummy.m"; path = "../Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting/Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-dummy.m"; sourceTree = "<group>"; };
-		E9B96F9BA03656517A912CB4 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F365B5E5328606504259FFF6 /* Pods-Tests-UILabel-AutomaticWriting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-UILabel-AutomaticWriting-prefix.pch"; sourceTree = "<group>"; };
-		FB22A69BDA935F2AABA33C2D /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FF830866897179CB017B6F89 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting.xcconfig"; path = "../Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting/Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting.xcconfig"; sourceTree = "<group>"; };
+		08FC6A75E56AD1454AA6E43D /* libPods-UILabel-AutomaticWriting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UILabel-AutomaticWriting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714118584483AB820A24796 /* Pods-UILabel-AutomaticWriting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UILabel-AutomaticWriting.debug.xcconfig"; sourceTree = "<group>"; };
+		1D80F61D220C4025324508B6 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-prefix.pch"; path = "../Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting/Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-prefix.pch"; sourceTree = "<group>"; };
+		1FD631DDD131FC6315100138 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-dummy.m"; path = "../Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting/Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-dummy.m"; sourceTree = "<group>"; };
+		215408FDEA085884A4CA6E97 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		236559AD403575AE542649D4 /* Pods-UILabel-AutomaticWriting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UILabel-AutomaticWriting-dummy.m"; sourceTree = "<group>"; };
+		4AB51EB4F4AC884D47E0456F /* libPods-UILabel-AutomaticWriting-UILabel-AutomaticWriting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UILabel-AutomaticWriting-UILabel-AutomaticWriting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFCFDE96C2BE9A5DD85AAD2 /* Pods-Tests-UILabel-AutomaticWriting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-UILabel-AutomaticWriting.xcconfig"; sourceTree = "<group>"; };
+		4F045FFB14DFBB3E97A6D9AE /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5565E2D4F0A3479321932159 /* libPods-Tests-UILabel-AutomaticWriting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-UILabel-AutomaticWriting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59DE4797D381FE067B16941C /* Pods-UILabel-AutomaticWriting-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UILabel-AutomaticWriting-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BFF92E6C03DFB562298F9B5 /* UILabel+AutomaticWriting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutomaticWriting.m"; sourceTree = "<group>"; };
+		5E00C02F48CD066CA1351971 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		60309011E40A9F27925BD3E2 /* Pods-UILabel-AutomaticWriting-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UILabel-AutomaticWriting-environment.h"; sourceTree = "<group>"; };
+		7E8D74AD69C83591149C9C38 /* UILabel+AutomaticWriting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutomaticWriting.h"; sourceTree = "<group>"; };
+		94DE3C7503D272B1B95CC23E /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3B819ECBDAF3ED1EE11A276 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting.xcconfig"; path = "../Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting/Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting.xcconfig"; sourceTree = "<group>"; };
+		A59247A60A1228902FCB4365 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AECFB96A7A9943E632A8EB08 /* Pods-UILabel-AutomaticWriting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UILabel-AutomaticWriting.release.xcconfig"; sourceTree = "<group>"; };
+		BA3515742517E1E1C405D5A1 /* Pods-Tests-UILabel-AutomaticWriting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-UILabel-AutomaticWriting-dummy.m"; sourceTree = "<group>"; };
+		BC8652EF31C194A145814B79 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C184193764E30C7C2F74D180 /* Pods-UILabel-AutomaticWriting-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UILabel-AutomaticWriting-resources.sh"; sourceTree = "<group>"; };
+		CE7685DDFFE0495AE53CC2AF /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-Private.xcconfig"; path = "../Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting/Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-Private.xcconfig"; sourceTree = "<group>"; };
+		D5B3B54F3975C3E2BC682E51 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		E0413DF29FEB3BD11808524B /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		E8F9D5C20E7EE760C0CB8809 /* Pods-Tests-UILabel-AutomaticWriting-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-UILabel-AutomaticWriting-Private.xcconfig"; sourceTree = "<group>"; };
+		EC022743E84643FF1A6F9CAD /* Pods-Tests-UILabel-AutomaticWriting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-UILabel-AutomaticWriting-prefix.pch"; sourceTree = "<group>"; };
+		F5BF6657E35E7D7F6223FB33 /* Pods-UILabel-AutomaticWriting-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UILabel-AutomaticWriting-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F855A3E1A6A182C2BCCF5FE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FB681EED2B937F62AE87F867 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FE21FCA18408DBCE83CA9ED0 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		158E261C88E00D63BBA3DB3D /* Frameworks */ = {
+		0628BEFDF0AE1C4ED8135627 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F81373CFBB5E38AA2692681C /* Foundation.framework in Frameworks */,
-				EB873417938B28B234CF914A /* UIKit.framework in Frameworks */,
+				0CFFA73A5FC31D9B48A499F2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D59E89137AA625BE1AD71DF /* Frameworks */ = {
+		3CD341AA42A661144BD73A62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DE2E3CACAAD48EDC1DC52D0 /* Foundation.framework in Frameworks */,
-				DE99E9F06C687F9B7B88BD4F /* UIKit.framework in Frameworks */,
+				5922FA8EEA655EF1FAD73AEB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		366BCFCAA1B08F9CC057D81D /* Frameworks */ = {
+		A00AA74C988A9A39D555EB2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28C4660EE6CF2BBBEB06DCC7 /* Foundation.framework in Frameworks */,
+				BF2C4EF35CB2BE51A166C948 /* Foundation.framework in Frameworks */,
+				878A29B4DC91DA98772C3B0B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		961A302A77094AAB959F1956 /* Frameworks */ = {
+		B55191296492AF92490E62B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFCE7F1332CAEDA92550C7CA /* Foundation.framework in Frameworks */,
+				9BD037AF3935D03D4645AD8C /* Foundation.framework in Frameworks */,
+				811826BDD8F188F1BCF6027E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D0CB2C8DC88D7A93523E0B9 /* Support Files */ = {
+		131A9B760B38D8D6107C9741 = {
 			isa = PBXGroup;
 			children = (
-				5725F41A1A937261525A2EEF /* Pods-Tests-UILabel-AutomaticWriting.xcconfig */,
-				A4A5F445DB6BF7EB564EEDC0 /* Pods-Tests-UILabel-AutomaticWriting-Private.xcconfig */,
-				3AC32B1AECB5B9E95A39926C /* Pods-Tests-UILabel-AutomaticWriting-dummy.m */,
-				F365B5E5328606504259FFF6 /* Pods-Tests-UILabel-AutomaticWriting-prefix.pch */,
-				FF830866897179CB017B6F89 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting.xcconfig */,
-				0F8E260D2D69274A195F8A97 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-Private.xcconfig */,
-				DA8FD95B18C2B5C7D74E0F58 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-dummy.m */,
-				5BC891FCD2D492D9458F47B8 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-prefix.pch */,
+				FB681EED2B937F62AE87F867 /* Podfile */,
+				4F1391EB799A302F75634EF1 /* Development Pods */,
+				524363FBD6EA618A168755AF /* Frameworks */,
+				D53C1BD3DF848992E7D3AEF4 /* Products */,
+				8D4358C73BCF47D962352518 /* Targets Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-Tests-UILabel-AutomaticWriting";
 			sourceTree = "<group>";
 		};
-		11236F663C7FA2D3B13FBF98 /* Frameworks */ = {
+		4F1391EB799A302F75634EF1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3271751B6CDF9FF9DAF8B2ED /* iOS */,
+				BFDBE791FE362DFE5E9A76FA /* UILabel-AutomaticWriting */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		524363FBD6EA618A168755AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B58F460EEAD700C15BBFE07 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1EB746DDB4615A997F6802D2 = {
+		7B58F460EEAD700C15BBFE07 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				215498A305D7FF9F286418A7 /* Podfile */,
-				5C82B6CE6C8BF9E4851297A7 /* Development Pods */,
-				11236F663C7FA2D3B13FBF98 /* Frameworks */,
-				21915122E262FADCEE71EC9B /* Products */,
-				2865B79762BCBB722072BC15 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		21915122E262FADCEE71EC9B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3F12E472E25752E459EB0873 /* libPods-Tests.a */,
-				0B6FE3B2ED19AA12FD95913B /* libPods-Tests-UILabel-AutomaticWriting.a */,
-				211C392E1E5531F88BCF991B /* libPods-UILabel-AutomaticWriting.a */,
-				582C87F28311BAFD1974C7D4 /* libPods-UILabel-AutomaticWriting-UILabel-AutomaticWriting.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2865B79762BCBB722072BC15 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9186F1BA9820A2D3A3958F80 /* Pods-Tests */,
-				58397A6D69FA11F795F640BD /* Pods-UILabel-AutomaticWriting */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3271751B6CDF9FF9DAF8B2ED /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				9C2A36B6CEEF61E117AC6680 /* Foundation.framework */,
-				4E0D90EBD335009CCCDCF6F1 /* UIKit.framework */,
+				A59247A60A1228902FCB4365 /* Foundation.framework */,
+				F855A3E1A6A182C2BCCF5FE5 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		34F88E1CCAA65F7FC23C100D /* UILabel-AutomaticWriting */ = {
+		8D4358C73BCF47D962352518 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0D0CB2C8DC88D7A93523E0B9 /* Support Files */,
-				3BC0B39AE4E8907869E727FD /* UILabel-AutomaticWriting */,
+				D03C7508BAE0684FF9744FED /* Pods-Tests */,
+				E6AD26B8B68D45A755E06D91 /* Pods-UILabel-AutomaticWriting */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B910D3F343F663E2CD5776CC /* UILabel-AutomaticWriting */ = {
+			isa = PBXGroup;
+			children = (
+				7E8D74AD69C83591149C9C38 /* UILabel+AutomaticWriting.h */,
+				5BFF92E6C03DFB562298F9B5 /* UILabel+AutomaticWriting.m */,
+			);
+			path = "UILabel-AutomaticWriting";
+			sourceTree = "<group>";
+		};
+		BFDBE791FE362DFE5E9A76FA /* UILabel-AutomaticWriting */ = {
+			isa = PBXGroup;
+			children = (
+				FFBFA828AF2D7018743CF2D9 /* Support Files */,
+				B910D3F343F663E2CD5776CC /* UILabel-AutomaticWriting */,
 			);
 			name = "UILabel-AutomaticWriting";
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		3BC0B39AE4E8907869E727FD /* UILabel-AutomaticWriting */ = {
+		D03C7508BAE0684FF9744FED /* Pods-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				77C0704F93B704D0A841F4BB /* UILabel+AutomaticWriting.h */,
-				78F77F4F7CF6D2032F22593E /* UILabel+AutomaticWriting.m */,
-			);
-			path = "UILabel-AutomaticWriting";
-			sourceTree = "<group>";
-		};
-		58397A6D69FA11F795F640BD /* Pods-UILabel-AutomaticWriting */ = {
-			isa = PBXGroup;
-			children = (
-				9E28F154722696D2C66A33BE /* Pods-UILabel-AutomaticWriting-acknowledgements.markdown */,
-				174DFB4AABF9A7A46E069041 /* Pods-UILabel-AutomaticWriting-acknowledgements.plist */,
-				9771A40EC8381EB38598EDA4 /* Pods-UILabel-AutomaticWriting-dummy.m */,
-				96490E3B773FC8CF7E8D8510 /* Pods-UILabel-AutomaticWriting-environment.h */,
-				A8F0C66EFEE906D6E95AD059 /* Pods-UILabel-AutomaticWriting-resources.sh */,
-				572147A3B593C6950BAFCA29 /* Pods-UILabel-AutomaticWriting.debug.xcconfig */,
-				83F8EAE635F3A10152FEF6D0 /* Pods-UILabel-AutomaticWriting.release.xcconfig */,
-			);
-			name = "Pods-UILabel-AutomaticWriting";
-			path = "Target Support Files/Pods-UILabel-AutomaticWriting";
-			sourceTree = "<group>";
-		};
-		5C82B6CE6C8BF9E4851297A7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				34F88E1CCAA65F7FC23C100D /* UILabel-AutomaticWriting */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9186F1BA9820A2D3A3958F80 /* Pods-Tests */ = {
-			isa = PBXGroup;
-			children = (
-				8F4F36530BB166FF6EAB8760 /* Pods-Tests-acknowledgements.markdown */,
-				FB22A69BDA935F2AABA33C2D /* Pods-Tests-acknowledgements.plist */,
-				68BB5AA77BD2CB96D2069399 /* Pods-Tests-dummy.m */,
-				7258EF6221E6C481BAB6FA47 /* Pods-Tests-environment.h */,
-				2608AC982E3514FCAA2CA0A6 /* Pods-Tests-resources.sh */,
-				563A4AE06EA9D122838356F0 /* Pods-Tests.debug.xcconfig */,
-				E9B96F9BA03656517A912CB4 /* Pods-Tests.release.xcconfig */,
+				215408FDEA085884A4CA6E97 /* Pods-Tests-acknowledgements.markdown */,
+				5E00C02F48CD066CA1351971 /* Pods-Tests-acknowledgements.plist */,
+				D5B3B54F3975C3E2BC682E51 /* Pods-Tests-dummy.m */,
+				E0413DF29FEB3BD11808524B /* Pods-Tests-environment.h */,
+				FE21FCA18408DBCE83CA9ED0 /* Pods-Tests-resources.sh */,
+				94DE3C7503D272B1B95CC23E /* Pods-Tests.debug.xcconfig */,
+				4F045FFB14DFBB3E97A6D9AE /* Pods-Tests.release.xcconfig */,
 			);
 			name = "Pods-Tests";
 			path = "Target Support Files/Pods-Tests";
 			sourceTree = "<group>";
 		};
+		D53C1BD3DF848992E7D3AEF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC8652EF31C194A145814B79 /* libPods-Tests.a */,
+				5565E2D4F0A3479321932159 /* libPods-Tests-UILabel-AutomaticWriting.a */,
+				08FC6A75E56AD1454AA6E43D /* libPods-UILabel-AutomaticWriting.a */,
+				4AB51EB4F4AC884D47E0456F /* libPods-UILabel-AutomaticWriting-UILabel-AutomaticWriting.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6AD26B8B68D45A755E06D91 /* Pods-UILabel-AutomaticWriting */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF6657E35E7D7F6223FB33 /* Pods-UILabel-AutomaticWriting-acknowledgements.markdown */,
+				59DE4797D381FE067B16941C /* Pods-UILabel-AutomaticWriting-acknowledgements.plist */,
+				236559AD403575AE542649D4 /* Pods-UILabel-AutomaticWriting-dummy.m */,
+				60309011E40A9F27925BD3E2 /* Pods-UILabel-AutomaticWriting-environment.h */,
+				C184193764E30C7C2F74D180 /* Pods-UILabel-AutomaticWriting-resources.sh */,
+				1714118584483AB820A24796 /* Pods-UILabel-AutomaticWriting.debug.xcconfig */,
+				AECFB96A7A9943E632A8EB08 /* Pods-UILabel-AutomaticWriting.release.xcconfig */,
+			);
+			name = "Pods-UILabel-AutomaticWriting";
+			path = "Target Support Files/Pods-UILabel-AutomaticWriting";
+			sourceTree = "<group>";
+		};
+		FFBFA828AF2D7018743CF2D9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DFCFDE96C2BE9A5DD85AAD2 /* Pods-Tests-UILabel-AutomaticWriting.xcconfig */,
+				E8F9D5C20E7EE760C0CB8809 /* Pods-Tests-UILabel-AutomaticWriting-Private.xcconfig */,
+				BA3515742517E1E1C405D5A1 /* Pods-Tests-UILabel-AutomaticWriting-dummy.m */,
+				EC022743E84643FF1A6F9CAD /* Pods-Tests-UILabel-AutomaticWriting-prefix.pch */,
+				A3B819ECBDAF3ED1EE11A276 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting.xcconfig */,
+				CE7685DDFFE0495AE53CC2AF /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-Private.xcconfig */,
+				1FD631DDD131FC6315100138 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-dummy.m */,
+				1D80F61D220C4025324508B6 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-Tests-UILabel-AutomaticWriting";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6FC875828FD5509FF2CF3E12 /* Headers */ = {
+		91D2D7770363B164E6CD04F3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CF149EEF152B631BD11FC5F /* UILabel+AutomaticWriting.h in Headers */,
+				972AA21B1469E8DA20E9D303 /* UILabel+AutomaticWriting.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D7B4500F7BA4AAC8B9FAC5D /* Headers */ = {
+		E0AD3B71B3848AC8C2BF5266 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				128A4B61A3FAAF3FB992274C /* UILabel+AutomaticWriting.h in Headers */,
+				8EA7BB8C3F04382E87470A5E /* UILabel+AutomaticWriting.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2C2BE29D706332710C58EBCC /* Pods-UILabel-AutomaticWriting */ = {
+		085594AF290F8BD6A7CAE0A5 /* Pods-UILabel-AutomaticWriting */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 375FE24D65CD72F32221A4E3 /* Build configuration list for PBXNativeTarget "Pods-UILabel-AutomaticWriting" */;
+			buildConfigurationList = AB2BFDF5F34CD115F05B8E3E /* Build configuration list for PBXNativeTarget "Pods-UILabel-AutomaticWriting" */;
 			buildPhases = (
-				D65FBFC68520C17A500370AE /* Sources */,
-				961A302A77094AAB959F1956 /* Frameworks */,
+				BA89DF4716DF0B22772D63B7 /* Sources */,
+				0628BEFDF0AE1C4ED8135627 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				44B7D8B6F0172A40998EBC82 /* PBXTargetDependency */,
+				4A083DEE2E68928A569172D2 /* PBXTargetDependency */,
 			);
 			name = "Pods-UILabel-AutomaticWriting";
 			productName = "Pods-UILabel-AutomaticWriting";
-			productReference = 211C392E1E5531F88BCF991B /* libPods-UILabel-AutomaticWriting.a */;
+			productReference = 08FC6A75E56AD1454AA6E43D /* libPods-UILabel-AutomaticWriting.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		5B30C6C7EC560AF60507C7B0 /* Pods-Tests-UILabel-AutomaticWriting */ = {
+		294F1C6AB378053C8FC25CA2 /* Pods-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01544C52E80A892BBDDE4351 /* Build configuration list for PBXNativeTarget "Pods-Tests-UILabel-AutomaticWriting" */;
+			buildConfigurationList = 72150959194943028449DA24 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
 			buildPhases = (
-				3BA869297FC7CB7E61EE6218 /* Sources */,
-				158E261C88E00D63BBA3DB3D /* Frameworks */,
-				9D7B4500F7BA4AAC8B9FAC5D /* Headers */,
+				82FDBF2B1A546917DA454C19 /* Sources */,
+				3CD341AA42A661144BD73A62 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890EBB25AF2BF252FB1F78B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = BC8652EF31C194A145814B79 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5190F8E339DE1F62955A17CF /* Pods-Tests-UILabel-AutomaticWriting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BA186F50B5E1640B8B05FB /* Build configuration list for PBXNativeTarget "Pods-Tests-UILabel-AutomaticWriting" */;
+			buildPhases = (
+				0FBAB5229DB86F71CAA95D17 /* Sources */,
+				A00AA74C988A9A39D555EB2A /* Frameworks */,
+				E0AD3B71B3848AC8C2BF5266 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -286,33 +303,16 @@
 			);
 			name = "Pods-Tests-UILabel-AutomaticWriting";
 			productName = "Pods-Tests-UILabel-AutomaticWriting";
-			productReference = 0B6FE3B2ED19AA12FD95913B /* libPods-Tests-UILabel-AutomaticWriting.a */;
+			productReference = 5565E2D4F0A3479321932159 /* libPods-Tests-UILabel-AutomaticWriting.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B69209EB1CFC6D9CF46981FA /* Pods-Tests */ = {
+		F0FDA1EF059200A5294296D3 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A319D0A6F54DAE57E9F21A1 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildConfigurationList = 1E36003967F64586250BA605 /* Build configuration list for PBXNativeTarget "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting" */;
 			buildPhases = (
-				D4F43E70CB3A6B4B1AEF48C3 /* Sources */,
-				366BCFCAA1B08F9CC057D81D /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B79E5A310E9E02021F577543 /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests";
-			productName = "Pods-Tests";
-			productReference = 3F12E472E25752E459EB0873 /* libPods-Tests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		E81396321CB5EF9D0E441223 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0A562056B6C68ED8D4AABAB4 /* Build configuration list for PBXNativeTarget "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting" */;
-			buildPhases = (
-				97A16BEE0BE0B097E5BEAD06 /* Sources */,
-				1D59E89137AA625BE1AD71DF /* Frameworks */,
-				6FC875828FD5509FF2CF3E12 /* Headers */,
+				F815B4F05737B167EB2ECBB2 /* Sources */,
+				B55191296492AF92490E62B9 /* Frameworks */,
+				91D2D7770363B164E6CD04F3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -320,91 +320,171 @@
 			);
 			name = "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting";
 			productName = "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting";
-			productReference = 582C87F28311BAFD1974C7D4 /* libPods-UILabel-AutomaticWriting-UILabel-AutomaticWriting.a */;
+			productReference = 4AB51EB4F4AC884D47E0456F /* libPods-UILabel-AutomaticWriting-UILabel-AutomaticWriting.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1AD8AF1EE4D7EC5B1FDF024E /* Project object */ = {
+		947555503145083875D41A0A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 47C1B9D0F2CF6B2446F96403 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 37D4B4A0160D68BF8D4205BB /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1EB746DDB4615A997F6802D2;
-			productRefGroup = 21915122E262FADCEE71EC9B /* Products */;
+			mainGroup = 131A9B760B38D8D6107C9741;
+			productRefGroup = D53C1BD3DF848992E7D3AEF4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B69209EB1CFC6D9CF46981FA /* Pods-Tests */,
-				5B30C6C7EC560AF60507C7B0 /* Pods-Tests-UILabel-AutomaticWriting */,
-				2C2BE29D706332710C58EBCC /* Pods-UILabel-AutomaticWriting */,
-				E81396321CB5EF9D0E441223 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting */,
+				294F1C6AB378053C8FC25CA2 /* Pods-Tests */,
+				5190F8E339DE1F62955A17CF /* Pods-Tests-UILabel-AutomaticWriting */,
+				085594AF290F8BD6A7CAE0A5 /* Pods-UILabel-AutomaticWriting */,
+				F0FDA1EF059200A5294296D3 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3BA869297FC7CB7E61EE6218 /* Sources */ = {
+		0FBAB5229DB86F71CAA95D17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB714F07C0E40F4EFD4FF4DD /* Pods-Tests-UILabel-AutomaticWriting-dummy.m in Sources */,
-				DC1EE1600CF6C866CE8A1ABD /* UILabel+AutomaticWriting.m in Sources */,
+				3E58860D8EF99AC97027C1A9 /* Pods-Tests-UILabel-AutomaticWriting-dummy.m in Sources */,
+				D1BF848B38186E147B8D71BC /* UILabel+AutomaticWriting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97A16BEE0BE0B097E5BEAD06 /* Sources */ = {
+		82FDBF2B1A546917DA454C19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37269DBE6A639A8AF5081779 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-dummy.m in Sources */,
-				10D8C0BB6ACFF7F93B7D7072 /* UILabel+AutomaticWriting.m in Sources */,
+				5C3D35E81246F9974CF0FCA2 /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4F43E70CB3A6B4B1AEF48C3 /* Sources */ = {
+		BA89DF4716DF0B22772D63B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3228043DAB29175CA94C9DD4 /* Pods-Tests-dummy.m in Sources */,
+				32AFCCD88B3FBB6F934DEBD5 /* Pods-UILabel-AutomaticWriting-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D65FBFC68520C17A500370AE /* Sources */ = {
+		F815B4F05737B167EB2ECBB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82E14CE29B993E9E44F646C6 /* Pods-UILabel-AutomaticWriting-dummy.m in Sources */,
+				1DC735430DC97A20F8C8C96D /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-dummy.m in Sources */,
+				A09DA37DA968F5B36225EC59 /* UILabel+AutomaticWriting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		44B7D8B6F0172A40998EBC82 /* PBXTargetDependency */ = {
+		4A083DEE2E68928A569172D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting";
-			target = E81396321CB5EF9D0E441223 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting */;
-			targetProxy = E3111D544D508722FC2E20E8 /* PBXContainerItemProxy */;
+			target = F0FDA1EF059200A5294296D3 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting */;
+			targetProxy = 437D887AE98E4EB782BE6E8D /* PBXContainerItemProxy */;
 		};
-		B79E5A310E9E02021F577543 /* PBXTargetDependency */ = {
+		890EBB25AF2BF252FB1F78B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Tests-UILabel-AutomaticWriting";
-			target = 5B30C6C7EC560AF60507C7B0 /* Pods-Tests-UILabel-AutomaticWriting */;
-			targetProxy = EA063A42601BC8ED9E08A43E /* PBXContainerItemProxy */;
+			target = 5190F8E339DE1F62955A17CF /* Pods-Tests-UILabel-AutomaticWriting */;
+			targetProxy = 08B8C367A95EAE7CE92372E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		31FCD22DBCC5D104BE0F12F9 /* Debug */ = {
+		23FF5D991050E2DFF767A9B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94DE3C7503D272B1B95CC23E /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70FF0E5019CF875D51DEC645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1714118584483AB820A24796 /* Pods-UILabel-AutomaticWriting.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7F512538950D76127CE88B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AECFB96A7A9943E632A8EB08 /* Pods-UILabel-AutomaticWriting.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		82C606438C41DA137AD1FB98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7685DDFFE0495AE53CC2AF /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting/Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A1F31AE54B33C95249F4D33F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F9D5C20E7EE760C0CB8809 /* Pods-Tests-UILabel-AutomaticWriting-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-UILabel-AutomaticWriting/Pods-Tests-UILabel-AutomaticWriting-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C3F156F630FC427DC627B6C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -443,41 +523,9 @@
 			};
 			name = Debug;
 		};
-		57D563791AB04A29CC126347 /* Debug */ = {
+		D5643787B409ACA14119BAD4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 572147A3B593C6950BAFCA29 /* Pods-UILabel-AutomaticWriting.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		9908E568B45B734D71B6AB14 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 563A4AE06EA9D122838356F0 /* Pods-Tests.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		A6559533F0A18DB007FDCF05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4A5F445DB6BF7EB564EEDC0 /* Pods-Tests-UILabel-AutomaticWriting-Private.xcconfig */;
+			baseConfigurationReference = E8F9D5C20E7EE760C0CB8809 /* Pods-Tests-UILabel-AutomaticWriting-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-UILabel-AutomaticWriting/Pods-Tests-UILabel-AutomaticWriting-prefix.pch";
@@ -491,71 +539,7 @@
 			};
 			name = Release;
 		};
-		A71878AC6E6D69E44B75FA1D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9B96F9BA03656517A912CB4 /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		CE340852C043B7A379EDFAE7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F8E260D2D69274A195F8A97 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting/Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		DAFFB050C94FD903FBAC91A6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4A5F445DB6BF7EB564EEDC0 /* Pods-Tests-UILabel-AutomaticWriting-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-UILabel-AutomaticWriting/Pods-Tests-UILabel-AutomaticWriting-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		E7A289A4A8A603AAD986CF57 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F8E260D2D69274A195F8A97 /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting/Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		EBC348ECD15A93FA65CFCC5C /* Release */ = {
+		DDCC8D273935CCFECD1AEA1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -589,9 +573,25 @@
 			};
 			name = Release;
 		};
-		F110040B9430F09A2E4CFB8F /* Release */ = {
+		E6A34B258F6C1D8E987C8A74 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83F8EAE635F3A10152FEF6D0 /* Pods-UILabel-AutomaticWriting.release.xcconfig */;
+			baseConfigurationReference = CE7685DDFFE0495AE53CC2AF /* Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting/Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F2B39B0789ED75D71D66EF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F045FFB14DFBB3E97A6D9AE /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -608,52 +608,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01544C52E80A892BBDDE4351 /* Build configuration list for PBXNativeTarget "Pods-Tests-UILabel-AutomaticWriting" */ = {
+		05BA186F50B5E1640B8B05FB /* Build configuration list for PBXNativeTarget "Pods-Tests-UILabel-AutomaticWriting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAFFB050C94FD903FBAC91A6 /* Debug */,
-				A6559533F0A18DB007FDCF05 /* Release */,
+				A1F31AE54B33C95249F4D33F /* Debug */,
+				D5643787B409ACA14119BAD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A562056B6C68ED8D4AABAB4 /* Build configuration list for PBXNativeTarget "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting" */ = {
+		1E36003967F64586250BA605 /* Build configuration list for PBXNativeTarget "Pods-UILabel-AutomaticWriting-UILabel-AutomaticWriting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE340852C043B7A379EDFAE7 /* Debug */,
-				E7A289A4A8A603AAD986CF57 /* Release */,
+				82C606438C41DA137AD1FB98 /* Debug */,
+				E6A34B258F6C1D8E987C8A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		375FE24D65CD72F32221A4E3 /* Build configuration list for PBXNativeTarget "Pods-UILabel-AutomaticWriting" */ = {
+		37D4B4A0160D68BF8D4205BB /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57D563791AB04A29CC126347 /* Debug */,
-				F110040B9430F09A2E4CFB8F /* Release */,
+				C3F156F630FC427DC627B6C3 /* Debug */,
+				DDCC8D273935CCFECD1AEA1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A319D0A6F54DAE57E9F21A1 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		72150959194943028449DA24 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9908E568B45B734D71B6AB14 /* Debug */,
-				A71878AC6E6D69E44B75FA1D /* Release */,
+				23FF5D991050E2DFF767A9B4 /* Debug */,
+				F2B39B0789ED75D71D66EF20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47C1B9D0F2CF6B2446F96403 /* Build configuration list for PBXProject "Pods" */ = {
+		AB2BFDF5F34CD115F05B8E3E /* Build configuration list for PBXNativeTarget "Pods-UILabel-AutomaticWriting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31FCD22DBCC5D104BE0F12F9 /* Debug */,
-				EBC348ECD15A93FA65CFCC5C /* Release */,
+				70FF0E5019CF875D51DEC645 /* Debug */,
+				7F512538950D76127CE88B52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1AD8AF1EE4D7EC5B1FDF024E /* Project object */;
+	rootObject = 947555503145083875D41A0A /* Project object */;
 }
