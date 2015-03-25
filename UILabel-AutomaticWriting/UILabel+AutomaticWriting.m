@@ -14,6 +14,16 @@ NSTimeInterval const UILabelAWDefaultDuration = 0.4f;
 
 unichar const UILabelAWDefaultCharacter = 124;
 
+static inline void AutomaticWritingSwizzleSelector(Class class, SEL originalSelector, SEL swizzledSelector) {
+    Method originalMethod = class_getInstanceMethod(class, originalSelector);
+    Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
+    if (class_addMethod(class, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod))) {
+        class_replaceMethod(class, swizzledSelector, method_getImplementation(originalMethod), method_getTypeEncoding(originalMethod));
+    } else {
+        method_exchangeImplementations(originalMethod, swizzledMethod);
+    }
+}
+
 static char kAutomaticWritingOperationQueueKey;
 static char kAutomaticWritingEdgeInsetsKey;
 
@@ -26,8 +36,11 @@ static char kAutomaticWritingEdgeInsetsKey;
 
 + (void)load
 {
-    method_exchangeImplementations(class_getInstanceMethod(self, @selector(textRectForBounds:limitedToNumberOfLines:)), class_getInstanceMethod(self, @selector(automaticWritingTextRectForBounds:limitedToNumberOfLines:)));
-    method_exchangeImplementations(class_getInstanceMethod(self, @selector(drawTextInRect:)), class_getInstanceMethod(self, @selector(drawAutomaticWritingTextInRect:)));
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        AutomaticWritingSwizzleSelector([self class], @selector(textRectForBounds:limitedToNumberOfLines:), @selector(automaticWritingTextRectForBounds:limitedToNumberOfLines:));
+        AutomaticWritingSwizzleSelector([self class], @selector(drawTextInRect:), @selector(drawAutomaticWritingTextInRect:));
+    });
 }
 
 -(void)drawAutomaticWritingTextInRect:(CGRect)rect
