@@ -6,6 +6,7 @@
 [![Version](https://img.shields.io/cocoapods/v/UILabel-AutomaticWriting.svg?style=flat)](http://cocoadocs.org/docsets/UILabel-AutomaticWriting)
 [![License](https://img.shields.io/cocoapods/l/UILabel-AutomaticWriting.svg?style=flat)](http://cocoadocs.org/docsets/UILabel-AutomaticWriting)
 [![Platform](https://img.shields.io/cocoapods/p/UILabel-AutomaticWriting.svg?style=flat)](http://cocoadocs.org/docsets/UILabel-AutomaticWriting)
+[![Dependency Status](https://www.versioneye.com/user/projects/555b039a634daacd4100019b/badge.svg?style=flat)](https://www.versioneye.com/user/projects/555b039a634daacd4100019b)
 [![Analytics](https://ga-beacon.appspot.com/UA-55329295-1/UILabel-AutomaticWriting/readme?pixel)](https://github.com/igrigorik/ga-beacon)
 
 ## Overview
