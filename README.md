@@ -1,5 +1,7 @@
 # UILabel-AutomaticWriting
 
+[![Join the chat at https://gitter.im/alexruperez/UILabel-AutomaticWriting](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/alexruperez/UILabel-AutomaticWriting?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Twitter](http://img.shields.io/badge/contact-@alexruperez-blue.svg?style=flat)](http://twitter.com/alexruperez)
 [![GitHub Issues](http://img.shields.io/github/issues/alexruperez/UILabel-AutomaticWriting.svg?style=flat)](http://github.com/alexruperez/UILabel-AutomaticWriting/issues)
 [![CI Status](http://img.shields.io/travis/alexruperez/UILabel-AutomaticWriting.svg?style=flat)](https://travis-ci.org/alexruperez/UILabel-AutomaticWriting)
